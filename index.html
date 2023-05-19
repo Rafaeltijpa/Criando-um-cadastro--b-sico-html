@@ -2,6 +2,14 @@
 <html lang="pt-br">
 
 <head>
+    <style>
+        fieldset {
+            margin-top: 20px;
+            border-radius: 10px;
+            border: solid blue 1px;
+        }
+    </style>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,6 +37,19 @@
             <label for="cep">CEP</label><br>
             <input type="number" name="cep" id="" placeholder="00000-000">
 
+
+        </fieldset>
+        <fieldset>
+            <legend>Qual seu time</legend>
+            <input type="checkbox" name="time" id="">Flamengo
+            <input type="checkbox" name="time" id="">Botafogo
+            <input type="checkbox" name="time" id="">Fluminense
+            <input type="checkbox" name="time" id="">vasco
+
+        </fieldset>
+        <fieldset>
+            <legend>Descrição</legend>
+            <textarea name="descrição" id="" cols="50" rows="10"></textarea>
         </fieldset>
 
     </form>
